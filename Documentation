@@ -1,0 +1,40 @@
+Programming Journey:
+
+We got in touch with the expyriment package initially in the course and it awoke our interest to 
+get acquainted with the means of it more so we decided to submit our final project as a python-based 
+online experiment. Additionally to the documentation in the courseware there was a big pool of material 
+concerning expyriment on the internet and it was quite pleasant to work out the functionality and the 
+available functions. We watched instructing videos and read through online documentations provided by 
+several sources and that way got acquainted with the package. We then felt equipped with all the required 
+knowledge to start off with the implementation. Then it was time to really dive deep into the experiment 
+and to grasp all its details and design choices in order to successfully replicate it. Since the experiment 
+was well-known by all of us, that step didn’t take much time and we could cover this chapter by simply 
+reactivating our memories and discussing it again in the group.
+The first real challenge was the installation of the package which was a little bit tricky but luckily 
+we could solve these initial problems easily. We then opened a GitHub repository so that we could access 
+the most recent version at all times. 
+Going deeper into the experiment we increasingly had to face smaller inconveniences since not all functions 
+were so easy to grasp and some details of the experiment were difficult to adjust to match our ideas. Since there 
+was already a python-based implementation of the „Simon Task“ available on the internet we brainstormed a lot what 
+about the design we could change in order to improve the experiment. 
+Adjustments were made in the color choice because we imagined that the red targets in the experiment at hand were 
+introducing unjustifiable biases since red is a signal color and evolutionary-conditioned processed faster. We instead 
+decided to take blue and green stimuli since these two colors are still well-distinct but more similar in terms of general 
+processing speed. Further we changed the design in respect to the trials and introduced practice trails in order to reduce 
+biases that origin from initial uncertainty about the task. The third big design feature we changed, is the amount of conditions. 
+By introducing a baseline condition that measures the general reaction time of each participant, we aimed at outlining more 
+precisely the differences between reaction latencies that stem from the general processing speed and the ones that actually are 
+caused by the different conditions. The baseline condition was held very neutral in white with a central key to press. 
+Smaller adjustments were made in the instructions in order to make them more comprehensible and the general outlook of the 
+experiment. We additionally introduced a fixation plus to prepare the participant for the onset of the stimulus.
+Implementation-wise we stumbled over the randomization of the stimulus onset which we set to 350ms - 1200ms and several technical 
+challenges. For example it was difficult to end up with the right amount of trials per block and the exclusivity of the keys, meaning 
+that only the respective keys allow the participant to progress in the experiment and that a simple messy running over all keys would 
+not make the experiment end faster. It was also challenging to determine that only the space bar and the enter key are to be pressed 
+in order to skip.
+After we had successfully implemented the experiment we started focusing onto the data analysis and the plotting of the collected 
+data and expanded our knowledge by Scipy, Pandas and Seaborn. We eventually also got to use familiar packages like Random, Matplot and Numpy. 
+Also for these packages the internet was well prepared in order to educate us and we tried several different functions to clean the data 
+and get exactly the outcome we wanted to plot later on. We decided to compare means and standard deviations and plot the different conditions 
+against each other. This way we wanted to really show visually that the „Simon Effect“ is still replicable even with more modern technical 
+means compared to the original experiment.
