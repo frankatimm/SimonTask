@@ -1,0 +1,477 @@
+#Expyriment 0.10.0 (Python 3.8.5), .xpe-file, coding: cp1252
+#date: Mon Aug 02 2021 13:30:37
+#sha1: d33571
+#modules: 
+#display: size=(1920, 1080), window_mode=False, open_gl=2
+#os: uname_result(system='Windows', node='DESKTOP-T4NIVQM', release='10', version='10.0.19041', machine='AMD64', processor='Intel64 Family 6 Model 142 Stepping 10, GenuineIntel')
+Time,Type,Event,Value,Detail,Detail2
+4651,stdout,received,'Colour(red=255, green=255, blue=255)'
+4653,stdout,received,'Colour(red=0, green=255, blue=0)'
+4656,stdout,received,'Colour(red=0, green=0, blue=255)'
+4657,stdout,received,'Colour(red=0, green=255, blue=0)'
+4657,stdout,received,'Colour(red=0, green=0, blue=255)'
+4659,stdout,received,'Colour(red=255, green=255, blue=255)'
+4660,stdout,received,'Colour(red=0, green=255, blue=0)'
+4662,stdout,received,'Colour(red=0, green=0, blue=255)'
+4663,stdout,received,'Colour(red=0, green=255, blue=0)'
+4663,stdout,received,'Colour(red=0, green=0, blue=255)'
+11186,design,log,
+#design: #exp: Simon Task + Baseline
+#design: #dvn: Trials,Block,Colour,Position,Button,RT
+#design: block_cnt,block_id,block_Block,block_Trials,trial_cnt,trial_id,Position,Colour
+#design: 0,0,Baseline,Practice,0,11,0,Colour(red=255, green=255, blue=255)
+#design: 0,0,Baseline,Practice,1,7,0,Colour(red=255, green=255, blue=255)
+#design: 0,0,Baseline,Practice,2,12,0,Colour(red=255, green=255, blue=255)
+#design: 0,0,Baseline,Practice,3,14,0,Colour(red=255, green=255, blue=255)
+#design: 0,0,Baseline,Practice,4,9,0,Colour(red=255, green=255, blue=255)
+#design: 0,0,Baseline,Practice,5,10,0,Colour(red=255, green=255, blue=255)
+#design: 0,0,Baseline,Practice,6,0,0,Colour(red=255, green=255, blue=255)
+#design: 0,0,Baseline,Practice,7,2,0,Colour(red=255, green=255, blue=255)
+#design: 0,0,Baseline,Practice,8,4,0,Colour(red=255, green=255, blue=255)
+#design: 0,0,Baseline,Practice,9,6,0,Colour(red=255, green=255, blue=255)
+#design: 0,0,Baseline,Practice,10,1,0,Colour(red=255, green=255, blue=255)
+#design: 0,0,Baseline,Practice,11,3,0,Colour(red=255, green=255, blue=255)
+#design: 0,0,Baseline,Practice,12,13,0,Colour(red=255, green=255, blue=255)
+#design: 0,0,Baseline,Practice,13,5,0,Colour(red=255, green=255, blue=255)
+#design: 0,0,Baseline,Practice,14,8,0,Colour(red=255, green=255, blue=255)
+#design: 1,1,Default,Practice,0,18,350,Colour(red=0, green=0, blue=255)
+#design: 1,1,Default,Practice,1,12,350,Colour(red=0, green=255, blue=0)
+#design: 1,1,Default,Practice,2,0,-350,Colour(red=0, green=255, blue=0)
+#design: 1,1,Default,Practice,3,4,-350,Colour(red=0, green=255, blue=0)
+#design: 1,1,Default,Practice,4,1,-350,Colour(red=0, green=255, blue=0)
+#design: 1,1,Default,Practice,5,3,-350,Colour(red=0, green=255, blue=0)
+#design: 1,1,Default,Practice,6,10,350,Colour(red=0, green=255, blue=0)
+#design: 1,1,Default,Practice,7,8,-350,Colour(red=0, green=0, blue=255)
+#design: 1,1,Default,Practice,8,2,-350,Colour(red=0, green=255, blue=0)
+#design: 1,1,Default,Practice,9,17,350,Colour(red=0, green=0, blue=255)
+#design: 1,1,Default,Practice,10,7,-350,Colour(red=0, green=0, blue=255)
+#design: 1,1,Default,Practice,11,11,350,Colour(red=0, green=255, blue=0)
+#design: 1,1,Default,Practice,12,5,-350,Colour(red=0, green=0, blue=255)
+#design: 1,1,Default,Practice,13,16,350,Colour(red=0, green=0, blue=255)
+#design: 1,1,Default,Practice,14,9,-350,Colour(red=0, green=0, blue=255)
+#design: 1,1,Default,Practice,15,19,350,Colour(red=0, green=0, blue=255)
+#design: 1,1,Default,Practice,16,14,350,Colour(red=0, green=255, blue=0)
+#design: 1,1,Default,Practice,17,6,-350,Colour(red=0, green=0, blue=255)
+#design: 1,1,Default,Practice,18,13,350,Colour(red=0, green=255, blue=0)
+#design: 1,1,Default,Practice,19,15,350,Colour(red=0, green=0, blue=255)
+#design: 2,2,Baseline,Main,0,16,0,Colour(red=255, green=255, blue=255)
+#design: 2,2,Baseline,Main,1,15,0,Colour(red=255, green=255, blue=255)
+#design: 2,2,Baseline,Main,2,24,0,Colour(red=255, green=255, blue=255)
+#design: 2,2,Baseline,Main,3,17,0,Colour(red=255, green=255, blue=255)
+#design: 2,2,Baseline,Main,4,12,0,Colour(red=255, green=255, blue=255)
+#design: 2,2,Baseline,Main,5,19,0,Colour(red=255, green=255, blue=255)
+#design: 2,2,Baseline,Main,6,11,0,Colour(red=255, green=255, blue=255)
+#design: 2,2,Baseline,Main,7,9,0,Colour(red=255, green=255, blue=255)
+#design: 2,2,Baseline,Main,8,26,0,Colour(red=255, green=255, blue=255)
+#design: 2,2,Baseline,Main,9,21,0,Colour(red=255, green=255, blue=255)
+#design: 2,2,Baseline,Main,10,0,0,Colour(red=255, green=255, blue=255)
+#design: 2,2,Baseline,Main,11,1,0,Colour(red=255, green=255, blue=255)
+#design: 2,2,Baseline,Main,12,8,0,Colour(red=255, green=255, blue=255)
+#design: 2,2,Baseline,Main,13,6,0,Colour(red=255, green=255, blue=255)
+#design: 2,2,Baseline,Main,14,29,0,Colour(red=255, green=255, blue=255)
+#design: 2,2,Baseline,Main,15,13,0,Colour(red=255, green=255, blue=255)
+#design: 2,2,Baseline,Main,16,3,0,Colour(red=255, green=255, blue=255)
+#design: 2,2,Baseline,Main,17,5,0,Colour(red=255, green=255, blue=255)
+#design: 2,2,Baseline,Main,18,18,0,Colour(red=255, green=255, blue=255)
+#design: 2,2,Baseline,Main,19,2,0,Colour(red=255, green=255, blue=255)
+#design: 2,2,Baseline,Main,20,7,0,Colour(red=255, green=255, blue=255)
+#design: 2,2,Baseline,Main,21,22,0,Colour(red=255, green=255, blue=255)
+#design: 2,2,Baseline,Main,22,25,0,Colour(red=255, green=255, blue=255)
+#design: 2,2,Baseline,Main,23,10,0,Colour(red=255, green=255, blue=255)
+#design: 2,2,Baseline,Main,24,14,0,Colour(red=255, green=255, blue=255)
+#design: 2,2,Baseline,Main,25,23,0,Colour(red=255, green=255, blue=255)
+#design: 2,2,Baseline,Main,26,27,0,Colour(red=255, green=255, blue=255)
+#design: 2,2,Baseline,Main,27,4,0,Colour(red=255, green=255, blue=255)
+#design: 2,2,Baseline,Main,28,28,0,Colour(red=255, green=255, blue=255)
+#design: 2,2,Baseline,Main,29,20,0,Colour(red=255, green=255, blue=255)
+#design: 3,3,Default,Main,0,22,-350,Colour(red=0, green=255, blue=0)
+#design: 3,3,Default,Main,1,14,350,Colour(red=0, green=255, blue=0)
+#design: 3,3,Default,Main,2,26,-350,Colour(red=0, green=0, blue=255)
+#design: 3,3,Default,Main,3,25,-350,Colour(red=0, green=0, blue=255)
+#design: 3,3,Default,Main,4,17,350,Colour(red=0, green=0, blue=255)
+#design: 3,3,Default,Main,5,29,-350,Colour(red=0, green=0, blue=255)
+#design: 3,3,Default,Main,6,35,350,Colour(red=0, green=0, blue=255)
+#design: 3,3,Default,Main,7,12,350,Colour(red=0, green=255, blue=0)
+#design: 3,3,Default,Main,8,18,350,Colour(red=0, green=0, blue=255)
+#design: 3,3,Default,Main,9,2,-350,Colour(red=0, green=255, blue=0)
+#design: 3,3,Default,Main,10,15,350,Colour(red=0, green=0, blue=255)
+#design: 3,3,Default,Main,11,38,350,Colour(red=0, green=0, blue=255)
+#design: 3,3,Default,Main,12,32,350,Colour(red=0, green=255, blue=0)
+#design: 3,3,Default,Main,13,27,-350,Colour(red=0, green=0, blue=255)
+#design: 3,3,Default,Main,14,7,-350,Colour(red=0, green=0, blue=255)
+#design: 3,3,Default,Main,15,6,-350,Colour(red=0, green=0, blue=255)
+#design: 3,3,Default,Main,16,9,-350,Colour(red=0, green=0, blue=255)
+#design: 3,3,Default,Main,17,1,-350,Colour(red=0, green=255, blue=0)
+#design: 3,3,Default,Main,18,31,350,Colour(red=0, green=255, blue=0)
+#design: 3,3,Default,Main,19,36,350,Colour(red=0, green=0, blue=255)
+#design: 3,3,Default,Main,20,4,-350,Colour(red=0, green=255, blue=0)
+#design: 3,3,Default,Main,21,21,-350,Colour(red=0, green=255, blue=0)
+#design: 3,3,Default,Main,22,3,-350,Colour(red=0, green=255, blue=0)
+#design: 3,3,Default,Main,23,10,350,Colour(red=0, green=255, blue=0)
+#design: 3,3,Default,Main,24,28,-350,Colour(red=0, green=0, blue=255)
+#design: 3,3,Default,Main,25,37,350,Colour(red=0, green=0, blue=255)
+#design: 3,3,Default,Main,26,30,350,Colour(red=0, green=255, blue=0)
+#design: 3,3,Default,Main,27,8,-350,Colour(red=0, green=0, blue=255)
+#design: 3,3,Default,Main,28,39,350,Colour(red=0, green=0, blue=255)
+#design: 3,3,Default,Main,29,34,350,Colour(red=0, green=255, blue=0)
+#design: 3,3,Default,Main,30,0,-350,Colour(red=0, green=255, blue=0)
+#design: 3,3,Default,Main,31,20,-350,Colour(red=0, green=255, blue=0)
+#design: 3,3,Default,Main,32,33,350,Colour(red=0, green=255, blue=0)
+#design: 3,3,Default,Main,33,11,350,Colour(red=0, green=255, blue=0)
+#design: 3,3,Default,Main,34,19,350,Colour(red=0, green=0, blue=255)
+#design: 3,3,Default,Main,35,5,-350,Colour(red=0, green=0, blue=255)
+#design: 3,3,Default,Main,36,23,-350,Colour(red=0, green=255, blue=0)
+#design: 3,3,Default,Main,37,16,350,Colour(red=0, green=0, blue=255)
+#design: 3,3,Default,Main,38,13,350,Colour(red=0, green=255, blue=0)
+#design: 3,3,Default,Main,39,24,-350,Colour(red=0, green=255, blue=0)
+11188,design,logged,
+11188,Experiment,started
+11273,Stimulus,presented,13
+12048,Keyboard,received,32,wait
+12130,Stimulus,presented,14
+12528,Keyboard,received,32,wait
+12603,Stimulus,presented,15
+13548,Keyboard,received,32,wait
+13552,Stimulus,presented,0
+14135,Stimulus,presented,1
+14364,Keyboard,received,98,wait
+14368,Stimulus,presented,0
+15350,Stimulus,presented,1
+15394,Keyboard,received,98,wait
+15398,Stimulus,presented,0
+15963,Stimulus,presented,1
+16009,Keyboard,received,98,wait
+16014,Stimulus,presented,0
+16703,Stimulus,presented,1
+16938,Keyboard,received,98,wait
+16941,Stimulus,presented,0
+17544,Stimulus,presented,1
+17711,Keyboard,received,98,wait
+17716,Stimulus,presented,0
+18402,Stimulus,presented,1
+18453,Keyboard,received,98,wait
+18457,Stimulus,presented,0
+19281,Stimulus,presented,1
+19459,Keyboard,received,98,wait
+19464,Stimulus,presented,0
+20592,Stimulus,presented,1
+20735,Keyboard,received,98,wait
+20739,Stimulus,presented,0
+21817,Stimulus,presented,1
+22042,Keyboard,received,98,wait
+22046,Stimulus,presented,0
+22608,Stimulus,presented,1
+23679,Keyboard,received,98,wait
+23683,Stimulus,presented,0
+24815,Stimulus,presented,1
+25040,Keyboard,received,98,wait
+25045,Stimulus,presented,0
+25750,Stimulus,presented,1
+26083,Keyboard,received,98,wait
+26087,Stimulus,presented,0
+26476,Stimulus,presented,1
+26845,Keyboard,received,98,wait
+26849,Stimulus,presented,0
+27267,Stimulus,presented,1
+27705,Keyboard,received,98,wait
+27709,Stimulus,presented,0
+28506,Stimulus,presented,1
+28977,Keyboard,received,98,wait
+29056,Stimulus,presented,16
+34179,Keyboard,received,32,wait
+34183,Stimulus,presented,0
+34567,Stimulus,presented,5
+35073,Keyboard,received,107,wait
+35077,Stimulus,presented,0
+35440,Stimulus,presented,4
+35848,Keyboard,received,100,wait
+35852,Stimulus,presented,0
+36244,Stimulus,presented,2
+36630,Keyboard,received,100,wait
+36634,Stimulus,presented,0
+37684,Stimulus,presented,2
+38038,Keyboard,received,100,wait
+38042,Stimulus,presented,0
+38715,Stimulus,presented,2
+39045,Keyboard,received,100,wait
+39048,Stimulus,presented,0
+40067,Stimulus,presented,2
+40399,Keyboard,received,100,wait
+40403,Stimulus,presented,0
+41164,Stimulus,presented,4
+41555,Keyboard,received,100,wait
+41560,Stimulus,presented,0
+42112,Stimulus,presented,3
+42594,Keyboard,received,107,wait
+42598,Stimulus,presented,0
+43790,Stimulus,presented,2
+44225,Keyboard,received,100,wait
+44229,Stimulus,presented,0
+44679,Stimulus,presented,5
+45171,Keyboard,received,107,wait
+45175,Stimulus,presented,0
+45739,Stimulus,presented,3
+46152,Keyboard,received,107,wait
+46155,Stimulus,presented,0
+46797,Stimulus,presented,4
+47159,Keyboard,received,100,wait
+47163,Stimulus,presented,0
+47962,Stimulus,presented,3
+48426,Keyboard,received,107,wait
+48430,Stimulus,presented,0
+49132,Stimulus,presented,5
+49619,Keyboard,received,107,wait
+49623,Stimulus,presented,0
+50709,Stimulus,presented,3
+51156,Keyboard,received,107,wait
+51160,Stimulus,presented,0
+52192,Stimulus,presented,5
+52597,Keyboard,received,107,wait
+52601,Stimulus,presented,0
+53350,Stimulus,presented,4
+53746,Keyboard,received,100,wait
+53750,Stimulus,presented,0
+54343,Stimulus,presented,3
+54630,Keyboard,received,100,wait
+54634,Stimulus,presented,0
+55173,Stimulus,presented,4
+55535,Keyboard,received,107,wait
+55539,Stimulus,presented,0
+56360,Stimulus,presented,5
+56735,Keyboard,received,107,wait
+56823,Stimulus,presented,17
+57930,Keyboard,received,32,wait
+58008,Stimulus,presented,18
+58813,Keyboard,received,32,wait
+58817,Stimulus,presented,0
+59489,Stimulus,presented,6
+59703,Keyboard,received,98,wait
+59707,Stimulus,presented,0
+60560,Stimulus,presented,6
+60770,Keyboard,received,98,wait
+60774,Stimulus,presented,0
+61751,Stimulus,presented,6
+62099,Keyboard,received,98,wait
+62103,Stimulus,presented,0
+62665,Stimulus,presented,6
+62938,Keyboard,received,98,wait
+62943,Stimulus,presented,0
+63818,Stimulus,presented,1
+64041,Keyboard,received,98,wait
+64045,Stimulus,presented,0
+64989,Stimulus,presented,6
+65194,Keyboard,received,98,wait
+65199,Stimulus,presented,0
+66102,Stimulus,presented,1
+66323,Keyboard,received,98,wait
+66327,Stimulus,presented,0
+67417,Stimulus,presented,1
+67537,Keyboard,received,98,wait
+67541,Stimulus,presented,0
+68248,Stimulus,presented,6
+68513,Keyboard,received,98,wait
+68517,Stimulus,presented,0
+69523,Stimulus,presented,6
+69648,Keyboard,received,98,wait
+69652,Stimulus,presented,0
+70142,Stimulus,presented,1
+70418,Keyboard,received,98,wait
+70422,Stimulus,presented,0
+71339,Stimulus,presented,1
+71553,Keyboard,received,98,wait
+71558,Stimulus,presented,0
+72035,Stimulus,presented,1
+72300,Keyboard,received,98,wait
+72304,Stimulus,presented,0
+73298,Stimulus,presented,1
+73324,Keyboard,received,98,wait
+73327,Stimulus,presented,0
+74244,Stimulus,presented,6
+74298,Keyboard,received,98,wait
+74302,Stimulus,presented,0
+75193,Stimulus,presented,1
+75404,Keyboard,received,98,wait
+75408,Stimulus,presented,0
+76582,Stimulus,presented,1
+76741,Keyboard,received,98,wait
+76745,Stimulus,presented,0
+77542,Stimulus,presented,1
+77782,Keyboard,received,98,wait
+77786,Stimulus,presented,0
+78902,Stimulus,presented,6
+79396,Keyboard,received,98,wait
+79400,Stimulus,presented,0
+79873,Stimulus,presented,1
+80177,Keyboard,received,98,wait
+80181,Stimulus,presented,0
+81125,Stimulus,presented,1
+81382,Keyboard,received,98,wait
+81387,Stimulus,presented,0
+82585,Stimulus,presented,6
+82697,Keyboard,received,98,wait
+82700,Stimulus,presented,0
+83212,Stimulus,presented,6
+83775,Keyboard,received,98,wait
+83779,Stimulus,presented,0
+84152,Stimulus,presented,1
+84790,Keyboard,received,98,wait
+84794,Stimulus,presented,0
+85361,Stimulus,presented,1
+85685,Keyboard,received,98,wait
+85688,Stimulus,presented,0
+86320,Stimulus,presented,6
+86621,Keyboard,received,98,wait
+86625,Stimulus,presented,0
+87309,Stimulus,presented,6
+87592,Keyboard,received,98,wait
+87596,Stimulus,presented,0
+88236,Stimulus,presented,1
+88537,Keyboard,received,98,wait
+88541,Stimulus,presented,0
+89692,Stimulus,presented,6
+89963,Keyboard,received,98,wait
+89967,Stimulus,presented,0
+90800,Stimulus,presented,6
+96387,Keyboard,received,98,wait
+96699,Stimulus,presented,19
+104484,Keyboard,received,32,wait
+104489,Stimulus,presented,0
+105472,Stimulus,presented,7
+105892,Keyboard,received,100,wait
+105897,Stimulus,presented,0
+106758,Stimulus,presented,4
+107115,Keyboard,received,100,wait
+107119,Stimulus,presented,0
+107644,Stimulus,presented,8
+108092,Keyboard,received,107,wait
+108096,Stimulus,presented,0
+109277,Stimulus,presented,8
+109664,Keyboard,received,107,wait
+109668,Stimulus,presented,0
+110810,Stimulus,presented,5
+111146,Keyboard,received,107,wait
+111150,Stimulus,presented,0
+112331,Stimulus,presented,8
+112679,Keyboard,received,107,wait
+112683,Stimulus,presented,0
+113373,Stimulus,presented,10
+113722,Keyboard,received,107,wait
+113727,Stimulus,presented,0
+114647,Stimulus,presented,4
+115066,Keyboard,received,100,wait
+115071,Stimulus,presented,0
+116002,Stimulus,presented,5
+116467,Keyboard,received,107,wait
+116471,Stimulus,presented,0
+117460,Stimulus,presented,2
+117893,Keyboard,received,100,wait
+117898,Stimulus,presented,0
+118869,Stimulus,presented,5
+119243,Keyboard,received,107,wait
+119247,Stimulus,presented,0
+119653,Stimulus,presented,10
+120131,Keyboard,received,107,wait
+120136,Stimulus,presented,0
+120747,Stimulus,presented,9
+121208,Keyboard,received,100,wait
+121212,Stimulus,presented,0
+121891,Stimulus,presented,8
+122369,Keyboard,received,107,wait
+122373,Stimulus,presented,0
+122824,Stimulus,presented,3
+123254,Keyboard,received,107,wait
+123257,Stimulus,presented,0
+124190,Stimulus,presented,3
+124566,Keyboard,received,107,wait
+124570,Stimulus,presented,0
+125609,Stimulus,presented,3
+125967,Keyboard,received,107,wait
+125970,Stimulus,presented,0
+126547,Stimulus,presented,2
+127061,Keyboard,received,100,wait
+127066,Stimulus,presented,0
+127971,Stimulus,presented,9
+128350,Keyboard,received,100,wait
+128353,Stimulus,presented,0
+129498,Stimulus,presented,10
+129864,Keyboard,received,107,wait
+129868,Stimulus,presented,0
+130410,Stimulus,presented,2
+130830,Keyboard,received,100,wait
+130833,Stimulus,presented,0
+131669,Stimulus,presented,7
+132044,Keyboard,received,100,wait
+132048,Stimulus,presented,0
+133240,Stimulus,presented,2
+133587,Keyboard,received,100,wait
+133591,Stimulus,presented,0
+134313,Stimulus,presented,4
+134822,Keyboard,received,100,wait
+134827,Stimulus,presented,0
+135399,Stimulus,presented,8
+135893,Keyboard,received,107,wait
+135898,Stimulus,presented,0
+137012,Stimulus,presented,10
+137360,Keyboard,received,107,wait
+137364,Stimulus,presented,0
+138490,Stimulus,presented,9
+138863,Keyboard,received,107,wait
+138867,Stimulus,presented,0
+139252,Stimulus,presented,3
+139783,Keyboard,received,100,wait
+139787,Stimulus,presented,0
+140983,Stimulus,presented,10
+141329,Keyboard,received,107,wait
+141334,Stimulus,presented,0
+142014,Stimulus,presented,9
+142529,Keyboard,received,100,wait
+142533,Stimulus,presented,0
+143612,Stimulus,presented,2
+144022,Keyboard,received,100,wait
+144026,Stimulus,presented,0
+144854,Stimulus,presented,7
+145193,Keyboard,received,100,wait
+145198,Stimulus,presented,0
+145560,Stimulus,presented,9
+146065,Keyboard,received,100,wait
+146070,Stimulus,presented,0
+146602,Stimulus,presented,4
+147096,Keyboard,received,100,wait
+147100,Stimulus,presented,0
+148135,Stimulus,presented,5
+148567,Keyboard,received,107,wait
+148571,Stimulus,presented,0
+149665,Stimulus,presented,3
+150053,Keyboard,received,107,wait
+150057,Stimulus,presented,0
+150550,Stimulus,presented,7
+151003,Keyboard,received,100,wait
+151007,Stimulus,presented,0
+151450,Stimulus,presented,5
+151912,Keyboard,received,107,wait
+151916,Stimulus,presented,0
+153037,Stimulus,presented,4
+153444,Keyboard,received,100,wait
+153449,Stimulus,presented,0
+154281,Stimulus,presented,7
+154745,Keyboard,received,100,wait
+154745,Experiment,ended
+154765,Data,saved
+154774,Stimulus,presented,20
+157926,stdout,received,'** Expyriment Data Preprocessor **'
+157957,stdout,received,'found 13 subject_data sets'
+157960,stdout,received,"found 7 variables: ['subject_id', 'Trials', 'Block', 'Colour', 'Position', 'Button', 'RT']"
+157962,stdout,received,'   reading ./data\\simon_task_01_202107311827.xpd'
+157964,stdout,received,'   reading ./data\\simon_task_02_202107311836.xpd'
+157967,stdout,received,'   reading ./data\\simon_task_03_202107311842.xpd'
+157970,stdout,received,'   reading ./data\\simon_task_04_202107311901.xpd'
+157973,stdout,received,'   reading ./data\\simon_task_05_202107311909.xpd'
+157976,stdout,received,'   reading ./data\\simon_task_06_202107311950.xpd'
+157979,stdout,received,'   reading ./data\\simon_task_07_202107312022.xpd'
+157982,stdout,received,'   reading ./data\\simon_task_08_202107312121.xpd'
+157986,stdout,received,'   reading ./data\\simon_task_09_202108011358.xpd'
+157990,stdout,received,'   reading ./data\\simon_task_10_202108011405.xpd'
+157994,stdout,received,'   reading ./data\\simon_task_11_202108021303.xpd'
+157998,stdout,received,'   reading ./data\\simon_task_12_202108021308.xpd'
+158004,stdout,received,'   reading ./data\\simon_task_13_202108021330.xpd'
+158052,stdout,received,'write file: data.csv (12285 cells in 1365 rows)'

@@ -66,8 +66,16 @@ data_cleaned = data[(np.abs(stats.zscore(data['RT'])) < 3)]
 data_main = data_cleaned.loc[data_cleaned['Trials'] == 'Main']
 
 # calculating mean of RT for every congruency condition
-mean_RT = data_main.groupby('Congruency', as_index=False)['RT'].mean().round(3)
+mean_RT_by_Congruency = data_main.groupby(['Congruency', "Position"], as_index=False)['RT'].mean().round(3)
 
 # plotting data
-ax = sns.barplot(x="Congruency", y="RT", data=mean_RT)
+ax = sns.barplot(
+    data=mean_RT_by_Congruency,
+    x="Congruency", y="RT",
+    ci="sd")
+plt.show()
+print(mean_RT_by_Congruency)
+ax = sns.catplot(
+    data=mean_RT_by_Congruency, kind="point",
+    x="Position", y="RT")
 plt.show()
