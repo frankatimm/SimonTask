@@ -69,13 +69,15 @@ data_main = data_cleaned.loc[data_cleaned['Trials'] == 'Main']
 mean_RT_by_Congruency = data_main.groupby(['Congruency', "Position"], as_index=False)['RT'].mean().round(3)
 
 # plotting data
-ax = sns.barplot(
+rt_con = sns.barplot(
     data=mean_RT_by_Congruency,
     x="Congruency", y="RT",
     ci="sd")
+rt_con.set_title("Reaction Time by Congruency Compared to Baseline")
 plt.show()
-print(mean_RT_by_Congruency)
-ax = sns.catplot(
-    data=mean_RT_by_Congruency, kind="point",
+
+rt_pos = sns.pointplot(
+    data=mean_RT_by_Congruency,
     x="Position", y="RT")
+rt_pos.set_title("Reaction Time by Stimulus Position")
 plt.show()
